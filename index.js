@@ -21,6 +21,7 @@ mongoose
   })
   .catch((error) => {
     console.error("MongoDB connection error:", error);
+    console.log("ERROR MONGO");
   });
 
 app.use("/api", UsersRequest);
